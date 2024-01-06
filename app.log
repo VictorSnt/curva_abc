@@ -461,3 +461,76 @@ ValueError: File size is 0 bytes
  * Running on http://127.0.0.1:5000
 2024-01-06 12:56:03,951 - [33mPress CTRL+C to quit[0m
 2024-01-06 12:56:13,458 - 127.0.0.1 - - [06/Jan/2024 12:56:13] "GET /relatorio HTTP/1.1" 200 -
+2024-01-06 15:29:20,081 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-01-06 15:29:20,082 - [33mPress CTRL+C to quit[0m
+2024-01-06 15:29:52,906 - 127.0.0.1 - - [06/Jan/2024 15:29:52] "[31m[1mGET /xls HTTP/1.1[0m" 405 -
+2024-01-06 15:29:53,006 - 127.0.0.1 - - [06/Jan/2024 15:29:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-01-06 15:29:56,483 - 127.0.0.1 - - [06/Jan/2024 15:29:56] "GET / HTTP/1.1" 200 -
+2024-01-06 15:30:04,294 - 127.0.0.1 - - [06/Jan/2024 15:30:04] "[32mPOST /xls HTTP/1.1[0m" 302 -
+2024-01-06 15:30:08,030 - 127.0.0.1 - - [06/Jan/2024 15:30:08] "GET /relatorio HTTP/1.1" 200 -
+2024-01-06 15:36:12,880 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-01-06 15:36:12,880 - [33mPress CTRL+C to quit[0m
+2024-01-06 15:36:19,977 - 127.0.0.1 - - [06/Jan/2024 15:36:19] "GET /relatorio HTTP/1.1" 200 -
+2024-01-06 15:38:05,501 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-01-06 15:38:05,501 - [33mPress CTRL+C to quit[0m
+2024-01-06 15:38:13,765 - 127.0.0.1 - - [06/Jan/2024 15:38:13] "GET /relatorio HTTP/1.1" 200 -
+2024-01-06 15:40:23,154 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-01-06 15:40:23,154 - [33mPress CTRL+C to quit[0m
+2024-01-06 15:40:32,980 - 127.0.0.1 - - [06/Jan/2024 15:40:32] "GET /relatorio HTTP/1.1" 200 -
+2024-01-06 15:41:39,072 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-01-06 15:41:39,072 - [33mPress CTRL+C to quit[0m
+2024-01-06 15:41:44,548 - 127.0.0.1 - - [06/Jan/2024 15:41:44] "GET /relatorio HTTP/1.1" 200 -
+2024-01-06 15:42:43,866 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-01-06 15:42:43,867 - [33mPress CTRL+C to quit[0m
+2024-01-06 15:42:49,253 - 127.0.0.1 - - [06/Jan/2024 15:42:49] "GET /relatorio HTTP/1.1" 200 -
+2024-01-06 15:43:51,702 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-01-06 15:43:51,702 - [33mPress CTRL+C to quit[0m
+2024-01-06 15:43:57,372 - 127.0.0.1 - - [06/Jan/2024 15:43:57] "GET /relatorio HTTP/1.1" 200 -
+2024-01-06 15:51:32,725 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-01-06 15:51:32,725 - [33mPress CTRL+C to quit[0m
+2024-01-06 15:51:39,223 - 127.0.0.1 - - [06/Jan/2024 15:51:39] "GET /relatorio HTTP/1.1" 200 -
+2024-01-06 15:53:17,312 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-01-06 15:53:17,312 - [33mPress CTRL+C to quit[0m
+2024-01-06 15:53:23,059 - 127.0.0.1 - - [06/Jan/2024 15:53:23] "GET /relatorio HTTP/1.1" 200 -
+2024-01-06 15:59:36,246 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-01-06 15:59:36,246 - [33mPress CTRL+C to quit[0m
+2024-01-06 15:59:43,405 - 127.0.0.1 - - [06/Jan/2024 15:59:43] "GET /relatorio HTTP/1.1" 200 -
+2024-01-06 16:04:55,967 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-01-06 16:04:55,967 - [33mPress CTRL+C to quit[0m
+2024-01-06 16:05:02,530 - 127.0.0.1 - - [06/Jan/2024 16:05:02] "GET /relatorio HTTP/1.1" 200 -
+2024-01-06 16:05:02,598 - 127.0.0.1 - - [06/Jan/2024 16:05:02] "GET /static/css/report.css HTTP/1.1" 200 -
+2024-01-06 16:05:02,617 - 127.0.0.1 - - [06/Jan/2024 16:05:02] "GET /static/js/report_js_logic.js HTTP/1.1" 200 -
+2024-01-06 16:07:35,174 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-01-06 16:07:35,174 - [33mPress CTRL+C to quit[0m
+2024-01-06 16:07:43,285 - 127.0.0.1 - - [06/Jan/2024 16:07:43] "GET / HTTP/1.1" 200 -
+2024-01-06 16:07:43,355 - 127.0.0.1 - - [06/Jan/2024 16:07:43] "GET /static/css/index.css HTTP/1.1" 200 -
+2024-01-06 16:07:48,624 - 127.0.0.1 - - [06/Jan/2024 16:07:48] "[32mPOST /xls HTTP/1.1[0m" 302 -
+2024-01-06 16:07:51,691 - 127.0.0.1 - - [06/Jan/2024 16:07:51] "GET /relatorio HTTP/1.1" 200 -
+2024-01-06 16:07:52,018 - 127.0.0.1 - - [06/Jan/2024 16:07:52] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2024-01-06 16:07:52,069 - 127.0.0.1 - - [06/Jan/2024 16:07:52] "[36mGET /static/js/report_js_logic.js HTTP/1.1[0m" 304 -
+2024-01-06 16:07:58,815 - Exceção ocorrida
+Traceback (most recent call last):
+  File "C:\Users\Victor\Desktop\Nova pasta\abc\app.py", line 50, in get_xls
+    raise ValueError(str(data))
+ValueError: File size is 0 bytes
+2024-01-06 16:07:58,822 - 127.0.0.1 - - [06/Jan/2024 16:07:58] "POST /xls HTTP/1.1" 200 -
+2024-01-06 16:07:58,857 - 127.0.0.1 - - [06/Jan/2024 16:07:58] "GET /static/css/error.css HTTP/1.1" 200 -
+2024-01-06 16:09:42,017 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-01-06 16:09:42,017 - [33mPress CTRL+C to quit[0m
+2024-01-06 16:09:50,016 - 127.0.0.1 - - [06/Jan/2024 16:09:50] "[32mPOST /xls HTTP/1.1[0m" 302 -
+2024-01-06 16:09:54,131 - 127.0.0.1 - - [06/Jan/2024 16:09:54] "GET /relatorio HTTP/1.1" 200 -
+2024-01-06 16:09:54,200 - 127.0.0.1 - - [06/Jan/2024 16:09:54] "GET /static/css/report.css HTTP/1.1" 200 -
+2024-01-06 16:09:54,519 - 127.0.0.1 - - [06/Jan/2024 16:09:54] "[36mGET /static/js/report_js_logic.js HTTP/1.1[0m" 304 -

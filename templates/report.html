@@ -4,109 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Relatório</title>
-    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f8f9fa;
-            margin: 0;
-            padding: 20px;
-            text-align: center;
-            animation: fadeIn 0.5s ease-in-out;
-        }
-
-        h1 {
-            color: #007bff;
-            margin-bottom: 20px;
-            animation: bounce 1s;
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-            overflow: hidden;
-            animation: slideIn 1s ease-in-out;
-        }
-
-        th, td {
-            border: 1px solid #dee2e6;
-            padding: 15px;
-            position: relative;
-        }
-
-        th {
-            background-color: #007bff;
-            color: #fff;
-        }
-
-        tr:nth-child(even) {
-            background-color: #f2f2f2;
-        }
-
-        td[data-color="green"] {
-            color: green;
-        }
-
-        td[data-color="red"] {
-            color: red;
-        }
-
-        .low-stock-icon {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            font-size: 1.5em;
-            color: red;
-            opacity: 0;
-            transition: opacity 0.3s;
-        }
-
-        tr:hover {
-            background-color: #e6f7ff;
-        }
-
-        tr:hover td[data-color="red"] .low-stock-icon {
-            opacity: 1;
-        }
-
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-            }
-            to {
-                opacity: 1;
-            }
-        }
-
-        @keyframes slideIn {
-            from {
-                transform: translateY(-50px);
-            }
-            to {
-                transform: translateY(0);
-            }
-        }
-
-        @keyframes bounce {
-            0%, 20%, 50%, 80%, 100% {
-                transform: translateY(0);
-            }
-            40% {
-                transform: translateY(-20px);
-            }
-            60% {
-                transform: translateY(-10px);
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="static/css/report.css">  
 </head>
 <body>
-    <h1>Relatório</h1>
+    <h1>Curva ABC</h1>
     <table>
         <tr>
             <th>Código Principal</th>
@@ -130,5 +32,8 @@
         </tr>
         {% endfor %}
     </table>
+    <button id="sendDataButton">Enviar Dados Selecionados</button>
+
+    <script src="static/js/report_js_logic.js"></script>
 </body>
 </html>
