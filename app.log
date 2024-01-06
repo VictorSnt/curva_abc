@@ -389,3 +389,75 @@ ValueError: File size is 0 bytes
 2024-01-06 12:34:54,764 - 127.0.0.1 - - [06/Jan/2024 12:34:54] "GET / HTTP/1.1" 200 -
 2024-01-06 12:35:01,951 - 127.0.0.1 - - [06/Jan/2024 12:35:01] "[32mPOST /xls HTTP/1.1[0m" 302 -
 2024-01-06 12:35:04,992 - 127.0.0.1 - - [06/Jan/2024 12:35:04] "GET /relatorio HTTP/1.1" 200 -
+2024-01-06 12:41:06,232 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-01-06 12:41:06,232 - [33mPress CTRL+C to quit[0m
+2024-01-06 12:41:11,108 - 127.0.0.1 - - [06/Jan/2024 12:41:11] "GET / HTTP/1.1" 200 -
+2024-01-06 12:42:09,504 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-01-06 12:42:09,504 - [33mPress CTRL+C to quit[0m
+2024-01-06 12:42:12,302 - 127.0.0.1 - - [06/Jan/2024 12:42:12] "GET / HTTP/1.1" 200 -
+2024-01-06 12:42:21,074 - 127.0.0.1 - - [06/Jan/2024 12:42:21] "[32mPOST /xls HTTP/1.1[0m" 302 -
+2024-01-06 12:42:24,105 - 127.0.0.1 - - [06/Jan/2024 12:42:24] "GET /relatorio HTTP/1.1" 200 -
+2024-01-06 12:43:16,408 - 127.0.0.1 - - [06/Jan/2024 12:43:16] "GET / HTTP/1.1" 200 -
+2024-01-06 12:43:18,281 - 127.0.0.1 - - [06/Jan/2024 12:43:18] "GET / HTTP/1.1" 200 -
+2024-01-06 12:43:25,684 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-01-06 12:43:25,684 - [33mPress CTRL+C to quit[0m
+2024-01-06 12:43:29,052 - 127.0.0.1 - - [06/Jan/2024 12:43:29] "GET / HTTP/1.1" 200 -
+2024-01-06 12:43:50,096 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-01-06 12:43:50,096 - [33mPress CTRL+C to quit[0m
+2024-01-06 12:43:53,734 - 127.0.0.1 - - [06/Jan/2024 12:43:53] "GET / HTTP/1.1" 200 -
+2024-01-06 12:45:19,033 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-01-06 12:45:19,033 - [33mPress CTRL+C to quit[0m
+2024-01-06 12:45:22,659 - 127.0.0.1 - - [06/Jan/2024 12:45:22] "GET / HTTP/1.1" 200 -
+2024-01-06 12:46:28,276 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-01-06 12:46:28,277 - [33mPress CTRL+C to quit[0m
+2024-01-06 12:46:32,034 - 127.0.0.1 - - [06/Jan/2024 12:46:32] "GET / HTTP/1.1" 200 -
+2024-01-06 12:46:33,758 - 127.0.0.1 - - [06/Jan/2024 12:46:33] "GET / HTTP/1.1" 200 -
+2024-01-06 12:48:21,333 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-01-06 12:48:21,333 - [33mPress CTRL+C to quit[0m
+2024-01-06 12:48:24,665 - 127.0.0.1 - - [06/Jan/2024 12:48:24] "GET / HTTP/1.1" 200 -
+2024-01-06 12:48:42,169 - 127.0.0.1 - - [06/Jan/2024 12:48:42] "[32mPOST /xls HTTP/1.1[0m" 302 -
+2024-01-06 12:48:45,227 - 127.0.0.1 - - [06/Jan/2024 12:48:45] "GET /relatorio HTTP/1.1" 200 -
+2024-01-06 12:48:52,231 - 127.0.0.1 - - [06/Jan/2024 12:48:52] "GET / HTTP/1.1" 200 -
+2024-01-06 12:50:07,163 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-01-06 12:50:07,164 - [33mPress CTRL+C to quit[0m
+2024-01-06 12:50:15,019 - Exceção ocorrida
+Traceback (most recent call last):
+  File "C:\Users\Victor\Desktop\Nova pasta\abc\app.py", line 50, in get_xls
+    raise ValueError(str(data))
+ValueError: File size is 0 bytes
+2024-01-06 12:50:15,050 - 127.0.0.1 - - [06/Jan/2024 12:50:15] "POST /xls HTTP/1.1" 200 -
+2024-01-06 12:51:43,381 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-01-06 12:51:43,381 - [33mPress CTRL+C to quit[0m
+2024-01-06 12:51:48,010 - Exceção ocorrida
+Traceback (most recent call last):
+  File "C:\Users\Victor\Desktop\Nova pasta\abc\app.py", line 50, in get_xls
+    raise ValueError(str(data))
+ValueError: File size is 0 bytes
+2024-01-06 12:51:48,037 - 127.0.0.1 - - [06/Jan/2024 12:51:48] "POST /xls HTTP/1.1" 200 -
+2024-01-06 12:52:02,123 - 127.0.0.1 - - [06/Jan/2024 12:52:02] "GET / HTTP/1.1" 200 -
+2024-01-06 12:53:26,420 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-01-06 12:53:26,420 - [33mPress CTRL+C to quit[0m
+2024-01-06 12:53:31,268 - 127.0.0.1 - - [06/Jan/2024 12:53:31] "GET / HTTP/1.1" 200 -
+2024-01-06 12:53:34,793 - Exceção ocorrida
+Traceback (most recent call last):
+  File "C:\Users\Victor\Desktop\Nova pasta\abc\app.py", line 50, in get_xls
+    raise ValueError(str(data))
+ValueError: File size is 0 bytes
+2024-01-06 12:53:34,802 - 127.0.0.1 - - [06/Jan/2024 12:53:34] "POST /xls HTTP/1.1" 200 -
+2024-01-06 12:53:36,507 - 127.0.0.1 - - [06/Jan/2024 12:53:36] "GET / HTTP/1.1" 200 -
+2024-01-06 12:53:39,788 - 127.0.0.1 - - [06/Jan/2024 12:53:39] "[32mPOST /xls HTTP/1.1[0m" 302 -
+2024-01-06 12:53:42,829 - 127.0.0.1 - - [06/Jan/2024 12:53:42] "GET /relatorio HTTP/1.1" 200 -
+2024-01-06 12:56:03,951 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-01-06 12:56:03,951 - [33mPress CTRL+C to quit[0m
+2024-01-06 12:56:13,458 - 127.0.0.1 - - [06/Jan/2024 12:56:13] "GET /relatorio HTTP/1.1" 200 -
