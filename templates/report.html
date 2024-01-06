@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatório</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #007bff;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #dee2e6;
+            padding: 10px;
+        }
+
+        th {
+            background-color: #007bff;
+            color: #fff;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Relatório</h1>
+    <table>
+        <tr>
+            <th>Código Principal</th>
+            <th>Descrição Detalhada</th>
+            <th>Quantidade Vendida</th>
+            <th>Rankeamento ABC</th>
+            <th>Quantidade em Estoque</th>
+        </tr>
+        {% for item in result_abc %}
+        <tr>
+            <td>{{ item['cdprincipal'] }}</td>
+            <td>{{ item['dsdetalhe'] }}</td>
+            <td>{{ item['qtvenda'] }}</td>
+            <td>{{ item['abcrank'] }}</td>
+            {% if item['qtvenda'] < item['qtestoque']  %}
+            <td style="color: green;">{{ item['qtestoque'] }}</td>
+            {% else %}
+            <td style="color: red;">{{ item['qtestoque'] }}</td>
+            {% endif %}
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
