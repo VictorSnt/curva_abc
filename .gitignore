@@ -1,3 +1,6 @@
 venv/
 static/*
-.env/
+.env
+__pycache__/
+Configuration/__pycache__/
+Configuration/DbConection/__pycache__/
