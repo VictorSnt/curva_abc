@@ -1,5 +1,5 @@
 venv/
-static/*
+static/temp_json.json
 .env
 __pycache__/
 Configuration/__pycache__/
