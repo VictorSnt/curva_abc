@@ -1,6 +1,8 @@
-from flask import Flask, redirect, render_template, request
+from flask import Flask, jsonify, redirect, render_template, request
 
-from Configuration.DbConection.queries import current_stock_query
+from Configuration.DbConection.queries import current_stock_query\
+,similar_products_query, get_idfamilia_query
+
 from util import importar_xls, connect_to_database
 
 from json import dump, load
@@ -33,6 +35,7 @@ def index():
     except Exception as e:
         logging.error("Exceção ocorrida", exc_info=True) 
         return render_template('error.html', error=str(e))
+
 
 @app.post('/xls')
 def get_xls():
@@ -101,6 +104,34 @@ def relatorio():
     except Exception as e:
         logging.error("Exceção ocorrida", exc_info=True) 
         return render_template('error.html', error=str(e))
+
+
+@app.route('/similares/<cdprincipal>')
+def get_similar_products(cdprincipal: str):
+
+    try:
+        if not cdprincipal or not cdprincipal.isnumeric():
+            return "deve ser uma string numerica"
+        
+        db = connect_to_database()
+
+        idfamilia: str = (
+            db.sqlquery(get_idfamilia_query.format(cdprincipal))
+            [0]['idfamilia']
+        )
+
+        if not idfamilia:
+            return "O formato do cdprincipal esta errado"
+        
+        result = (
+            db.sqlquery(similar_products_query.format(idfamilia))
+        )
     
+        return jsonify(result) or "Erro ao fazer consulta"
+
+    except Exception as e:
+        logging.error("Exceção ocorrida", exc_info=True) 
+        return render_template('error.html', error=str(e))
+
 if __name__ == '__main__':
     app.run()

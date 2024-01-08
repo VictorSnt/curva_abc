@@ -33,7 +33,25 @@
         {% endfor %}
     </table>
     <button id="sendDataButton">Enviar Dados Selecionados</button>
+    <div class="modal-overlay" id="modalOverlay"></div>
+    <div class="modal" id="productModal">
+        <span class="close-modal" id="close-modal">&times;</span>
+        <h2>Produtos similares</h2>
+        <div class="modal-content"> 
+            <table>
+                <thead>
+                    <tr>
+                        <th>Descrição Detalhada</th>
+                        <th>Quantidade em Estoque</th>
+                    </tr>
+                </thead>
+                <tbody id="productModalBody">
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
 
-    <script src="static/js/report_js_logic.js"></script>
+    <script src="static/js/main.js"></script>
 </body>
 </html>

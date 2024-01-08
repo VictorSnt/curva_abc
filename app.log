@@ -534,3 +534,541 @@ ValueError: File size is 0 bytes
 2024-01-06 16:09:54,131 - 127.0.0.1 - - [06/Jan/2024 16:09:54] "GET /relatorio HTTP/1.1" 200 -
 2024-01-06 16:09:54,200 - 127.0.0.1 - - [06/Jan/2024 16:09:54] "GET /static/css/report.css HTTP/1.1" 200 -
 2024-01-06 16:09:54,519 - 127.0.0.1 - - [06/Jan/2024 16:09:54] "[36mGET /static/js/report_js_logic.js HTTP/1.1[0m" 304 -
+2024-01-06 16:37:46,728 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5700
+ * Running on http://192.168.0.250:5700
+2024-01-06 16:37:46,728 - [33mPress CTRL+C to quit[0m
+2024-01-06 16:37:49,260 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5700
+ * Running on http://192.168.0.250:5700
+2024-01-06 16:37:49,260 - [33mPress CTRL+C to quit[0m
+2024-01-06 16:37:56,213 - 10.1.10.50 - - [06/Jan/2024 16:37:56] "GET / HTTP/1.1" 200 -
+2024-01-06 16:37:56,307 - 10.1.10.50 - - [06/Jan/2024 16:37:56] "GET /static/css/index.css HTTP/1.1" 200 -
+2024-01-06 16:37:56,698 - 10.1.10.50 - - [06/Jan/2024 16:37:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-01-06 16:37:59,558 - Exceção ocorrida
+Traceback (most recent call last):
+  File "C:\Users\Administrador.WIN-DEF9I0RFKKU\ti_construfacil\curva_abc\app.py", line 50, in get_xls
+    raise ValueError(str(data))
+ValueError: File size is 0 bytes
+2024-01-06 16:37:59,558 - 10.1.10.50 - - [06/Jan/2024 16:37:59] "POST /xls HTTP/1.1" 200 -
+2024-01-06 16:37:59,636 - 10.1.10.50 - - [06/Jan/2024 16:37:59] "GET /static/css/error.css HTTP/1.1" 200 -
+2024-01-06 16:38:05,918 - 10.1.10.50 - - [06/Jan/2024 16:38:05] "[32mPOST /xls HTTP/1.1[0m" 302 -
+2024-01-06 16:38:08,637 - 10.1.10.50 - - [06/Jan/2024 16:38:08] "GET /relatorio HTTP/1.1" 200 -
+2024-01-06 16:38:08,825 - 10.1.10.50 - - [06/Jan/2024 16:38:08] "GET /static/css/report.css HTTP/1.1" 200 -
+2024-01-06 16:38:10,856 - 10.1.10.50 - - [06/Jan/2024 16:38:10] "GET /static/js/report_js_logic.js HTTP/1.1" 200 -
+2024-01-07 11:34:51,823 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5700
+ * Running on http://127.0.0.1:5700
+2024-01-07 11:34:51,838 - [33mPress CTRL+C to quit[0m
+2024-01-07 14:43:32,698 - 10.1.10.50 - - [07/Jan/2024 14:43:32] "GET / HTTP/1.1" 200 -
+2024-01-07 14:43:32,838 - 10.1.10.50 - - [07/Jan/2024 14:43:32] "GET /static/css/index.css HTTP/1.1" 200 -
+2024-01-07 14:43:33,213 - 10.1.10.50 - - [07/Jan/2024 14:43:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-01-07 14:43:39,448 - 10.1.10.50 - - [07/Jan/2024 14:43:39] "[32mPOST /xls HTTP/1.1[0m" 302 -
+2024-01-07 14:43:42,042 - 10.1.10.50 - - [07/Jan/2024 14:43:42] "GET /relatorio HTTP/1.1" 200 -
+2024-01-07 14:43:42,214 - 10.1.10.50 - - [07/Jan/2024 14:43:42] "GET /static/css/report.css HTTP/1.1" 200 -
+2024-01-07 14:43:44,949 - 10.1.10.50 - - [07/Jan/2024 14:43:44] "GET /static/js/report_js_logic.js HTTP/1.1" 200 -
+2024-01-08 07:14:13,528 - 192.168.0.28 - - [08/Jan/2024 07:14:13] "GET / HTTP/1.1" 200 -
+2024-01-08 07:14:13,559 - 192.168.0.28 - - [08/Jan/2024 07:14:13] "GET /static/css/index.css HTTP/1.1" 200 -
+2024-01-08 07:14:13,763 - 192.168.0.28 - - [08/Jan/2024 07:14:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-01-08 07:18:10,278 - 192.168.0.28 - - [08/Jan/2024 07:18:10] "GET / HTTP/1.1" 200 -
+2024-01-08 07:18:10,341 - 192.168.0.28 - - [08/Jan/2024 07:18:10] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-01-08 07:18:42,172 - 192.168.0.28 - - [08/Jan/2024 07:18:42] "[32mPOST /xls HTTP/1.1[0m" 302 -
+2024-01-08 07:18:44,813 - 192.168.0.28 - - [08/Jan/2024 07:18:44] "GET /relatorio HTTP/1.1" 200 -
+2024-01-08 07:18:44,845 - 192.168.0.28 - - [08/Jan/2024 07:18:44] "GET /static/css/report.css HTTP/1.1" 200 -
+2024-01-08 07:18:44,876 - 192.168.0.28 - - [08/Jan/2024 07:18:44] "GET /static/js/report_js_logic.js HTTP/1.1" 200 -
+2024-01-08 07:25:19,471 - 192.168.0.28 - - [08/Jan/2024 07:25:19] "[32mPOST /xls HTTP/1.1[0m" 302 -
+2024-01-08 07:25:23,852 - 192.168.0.28 - - [08/Jan/2024 07:25:23] "GET /relatorio HTTP/1.1" 200 -
+2024-01-08 07:25:23,918 - 192.168.0.28 - - [08/Jan/2024 07:25:23] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2024-01-08 07:25:23,918 - 192.168.0.28 - - [08/Jan/2024 07:25:23] "[36mGET /static/js/report_js_logic.js HTTP/1.1[0m" 304 -
+2024-01-08 07:30:43,928 - 192.168.0.28 - - [08/Jan/2024 07:30:43] "GET / HTTP/1.1" 200 -
+2024-01-08 07:30:43,944 - 192.168.0.28 - - [08/Jan/2024 07:30:43] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-01-08 07:30:51,495 - 192.168.0.28 - - [08/Jan/2024 07:30:51] "[32mPOST /xls HTTP/1.1[0m" 302 -
+2024-01-08 07:30:54,196 - 192.168.0.28 - - [08/Jan/2024 07:30:54] "GET /relatorio HTTP/1.1" 200 -
+2024-01-08 07:30:54,290 - 192.168.0.28 - - [08/Jan/2024 07:30:54] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2024-01-08 07:30:54,290 - 192.168.0.28 - - [08/Jan/2024 07:30:54] "[36mGET /static/js/report_js_logic.js HTTP/1.1[0m" 304 -
+2024-01-08 07:33:44,217 - 192.168.0.28 - - [08/Jan/2024 07:33:44] "GET /relatorio HTTP/1.1" 200 -
+2024-01-08 07:33:44,232 - 192.168.0.28 - - [08/Jan/2024 07:33:44] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2024-01-08 07:33:44,255 - 192.168.0.28 - - [08/Jan/2024 07:33:44] "[36mGET /static/js/report_js_logic.js HTTP/1.1[0m" 304 -
+2024-01-08 07:50:48,957 - 192.168.0.28 - - [08/Jan/2024 07:50:48] "GET / HTTP/1.1" 200 -
+2024-01-08 07:50:48,980 - 192.168.0.28 - - [08/Jan/2024 07:50:48] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-01-08 07:51:25,077 - 192.168.0.28 - - [08/Jan/2024 07:51:25] "GET /relatorio HTTP/1.1" 200 -
+2024-01-08 07:51:25,091 - 192.168.0.28 - - [08/Jan/2024 07:51:25] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2024-01-08 07:51:25,110 - 192.168.0.28 - - [08/Jan/2024 07:51:25] "[36mGET /static/js/report_js_logic.js HTTP/1.1[0m" 304 -
+2024-01-08 07:51:29,082 - 192.168.0.28 - - [08/Jan/2024 07:51:29] "GET / HTTP/1.1" 200 -
+2024-01-08 07:51:29,100 - 192.168.0.28 - - [08/Jan/2024 07:51:29] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-01-08 07:51:33,486 - 192.168.0.28 - - [08/Jan/2024 07:51:33] "[32mPOST /xls HTTP/1.1[0m" 302 -
+2024-01-08 07:51:36,044 - 192.168.0.28 - - [08/Jan/2024 07:51:36] "GET /relatorio HTTP/1.1" 200 -
+2024-01-08 07:51:36,063 - 192.168.0.28 - - [08/Jan/2024 07:51:36] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2024-01-08 07:51:36,508 - 192.168.0.28 - - [08/Jan/2024 07:51:36] "[36mGET /static/js/report_js_logic.js HTTP/1.1[0m" 304 -
+2024-01-08 07:56:23,069 - 192.168.0.250 - - [08/Jan/2024 07:56:23] "GET / HTTP/1.1" 200 -
+2024-01-08 07:56:23,144 - 192.168.0.250 - - [08/Jan/2024 07:56:23] "GET /static/css/index.css HTTP/1.1" 200 -
+2024-01-08 07:56:23,224 - 192.168.0.250 - - [08/Jan/2024 07:56:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-01-08 07:57:11,435 - 192.168.0.250 - - [08/Jan/2024 07:57:11] "GET / HTTP/1.1" 200 -
+2024-01-08 07:57:11,452 - 192.168.0.250 - - [08/Jan/2024 07:57:11] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-01-08 09:25:23,142 - 192.168.0.250 - - [08/Jan/2024 09:25:23] "[32mPOST /xls HTTP/1.1[0m" 302 -
+2024-01-08 09:25:25,879 - 192.168.0.250 - - [08/Jan/2024 09:25:25] "GET /relatorio HTTP/1.1" 200 -
+2024-01-08 09:25:25,901 - 192.168.0.250 - - [08/Jan/2024 09:25:25] "GET /static/css/report.css HTTP/1.1" 200 -
+2024-01-08 09:25:25,901 - 192.168.0.250 - - [08/Jan/2024 09:25:25] "GET /static/js/report_js_logic.js HTTP/1.1" 200 -
+2024-01-08 09:35:28,479 - 192.168.0.28 - - [08/Jan/2024 09:35:28] "GET / HTTP/1.1" 200 -
+2024-01-08 09:35:28,624 - 192.168.0.28 - - [08/Jan/2024 09:35:28] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-01-08 09:44:54,782 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:7450
+2024-01-08 09:44:54,782 - [33mPress CTRL+C to quit[0m
+2024-01-08 09:45:07,585 - 127.0.0.1 - - [08/Jan/2024 09:45:07] "GET / HTTP/1.1" 200 -
+2024-01-08 09:45:07,620 - 127.0.0.1 - - [08/Jan/2024 09:45:07] "GET /static/css/index.css HTTP/1.1" 200 -
+2024-01-08 09:45:07,823 - 127.0.0.1 - - [08/Jan/2024 09:45:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-01-08 10:54:52,256 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:7450
+2024-01-08 10:54:52,256 - [33mPress CTRL+C to quit[0m
+2024-01-08 10:55:44,034 - 127.0.0.1 - - [08/Jan/2024 10:55:44] "[33mGET /similares/N5D000005C HTTP/1.1[0m" 404 -
+2024-01-08 10:56:09,218 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:7450
+2024-01-08 10:56:09,219 - [33mPress CTRL+C to quit[0m
+2024-01-08 10:56:09,222 -  * Restarting with stat
+2024-01-08 10:56:09,524 -  * Debugger is active!
+2024-01-08 10:56:09,528 -  * Debugger PIN: 102-700-489
+2024-01-08 11:02:20,940 -  * Detected change in 'C:\\Users\\Administrador.WIN-DEF9I0RFKKU\\ti_construfacil\\abc test\\curva_abc\\app.py', reloading
+2024-01-08 11:02:20,977 -  * Restarting with stat
+2024-01-08 11:02:21,235 -  * Debugger is active!
+2024-01-08 11:02:21,239 -  * Debugger PIN: 102-700-489
+2024-01-08 11:02:23,350 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:7450
+2024-01-08 11:02:23,350 - [33mPress CTRL+C to quit[0m
+2024-01-08 11:02:23,354 -  * Restarting with stat
+2024-01-08 11:02:23,686 -  * Debugger is active!
+2024-01-08 11:02:23,689 -  * Debugger PIN: 102-700-489
+2024-01-08 11:02:26,040 - 127.0.0.1 - - [08/Jan/2024 11:02:26] "[35m[1mGET /similares/N5D000005C HTTP/1.1[0m" 500 -
+2024-01-08 11:02:26,086 - 127.0.0.1 - - [08/Jan/2024 11:02:26] "GET /similares/N5D000005C?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-01-08 11:02:26,120 - 127.0.0.1 - - [08/Jan/2024 11:02:26] "GET /similares/N5D000005C?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-01-08 11:02:26,477 - 127.0.0.1 - - [08/Jan/2024 11:02:26] "GET /similares/N5D000005C?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-01-08 11:02:26,721 - 127.0.0.1 - - [08/Jan/2024 11:02:26] "[36mGET /similares/N5D000005C?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-01-08 11:05:07,804 - 127.0.0.1 - - [08/Jan/2024 11:05:07] "[35m[1mGET /similares/N5D00000BE HTTP/1.1[0m" 500 -
+2024-01-08 11:05:07,814 - 127.0.0.1 - - [08/Jan/2024 11:05:07] "GET /similares/N5D00000BE?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-01-08 11:05:08,011 - 127.0.0.1 - - [08/Jan/2024 11:05:08] "GET /similares/N5D00000BE?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-01-08 11:05:08,319 - 127.0.0.1 - - [08/Jan/2024 11:05:08] "GET /similares/N5D00000BE?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-01-08 11:05:08,570 - 127.0.0.1 - - [08/Jan/2024 11:05:08] "[36mGET /similares/N5D00000BE?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-01-08 11:08:12,957 -  * Detected change in 'C:\\Users\\Administrador.WIN-DEF9I0RFKKU\\ti_construfacil\\abc test\\curva_abc\\app.py', reloading
+2024-01-08 11:08:12,987 -  * Restarting with stat
+2024-01-08 11:08:13,233 -  * Debugger is active!
+2024-01-08 11:08:13,236 -  * Debugger PIN: 102-700-489
+2024-01-08 11:08:28,349 -  * Detected change in 'C:\\Users\\Administrador.WIN-DEF9I0RFKKU\\ti_construfacil\\abc test\\curva_abc\\app.py', reloading
+2024-01-08 11:08:28,377 -  * Restarting with stat
+2024-01-08 11:08:28,605 -  * Debugger is active!
+2024-01-08 11:08:28,609 -  * Debugger PIN: 102-700-489
+2024-01-08 11:12:39,238 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:7450
+2024-01-08 11:12:39,238 - [33mPress CTRL+C to quit[0m
+2024-01-08 11:12:39,241 -  * Restarting with stat
+2024-01-08 11:12:39,544 -  * Debugger is active!
+2024-01-08 11:12:39,546 -  * Debugger PIN: 102-700-489
+2024-01-08 11:12:42,111 - 127.0.0.1 - - [08/Jan/2024 11:12:42] "GET /similares/N5D00000BE HTTP/1.1" 200 -
+2024-01-08 17:09:30,107 -  * Detected change in 'C:\\Users\\Administrador.WIN-DEF9I0RFKKU\\ti_construfacil\\abc test\\curva_abc\\Configuration\\DbConection\\queries.py', reloading
+2024-01-08 17:09:30,140 -  * Restarting with stat
+2024-01-08 17:09:30,421 -  * Debugger is active!
+2024-01-08 17:09:30,424 -  * Debugger PIN: 102-700-489
+2024-01-08 17:09:36,483 -  * Detected change in 'C:\\Users\\Administrador.WIN-DEF9I0RFKKU\\ti_construfacil\\abc test\\curva_abc\\Configuration\\DbConection\\queries.py', reloading
+2024-01-08 17:09:36,510 -  * Restarting with stat
+2024-01-08 17:09:36,741 -  * Debugger is active!
+2024-01-08 17:09:36,744 -  * Debugger PIN: 102-700-489
+2024-01-08 17:10:36,119 -  * Detected change in 'C:\\Users\\Administrador.WIN-DEF9I0RFKKU\\ti_construfacil\\abc test\\curva_abc\\app.py', reloading
+2024-01-08 17:10:36,146 -  * Restarting with stat
+2024-01-08 17:10:36,367 -  * Debugger is active!
+2024-01-08 17:10:36,369 -  * Debugger PIN: 102-700-489
+2024-01-08 17:11:04,566 -  * Detected change in 'C:\\Users\\Administrador.WIN-DEF9I0RFKKU\\ti_construfacil\\abc test\\curva_abc\\app.py', reloading
+2024-01-08 17:11:04,594 -  * Restarting with stat
+2024-01-08 17:11:04,814 -  * Debugger is active!
+2024-01-08 17:11:04,816 -  * Debugger PIN: 102-700-489
+2024-01-08 17:11:29,990 -  * Detected change in 'C:\\Users\\Administrador.WIN-DEF9I0RFKKU\\ti_construfacil\\abc test\\curva_abc\\app.py', reloading
+2024-01-08 17:11:30,018 -  * Restarting with stat
+2024-01-08 17:11:30,239 -  * Debugger is active!
+2024-01-08 17:11:30,241 -  * Debugger PIN: 102-700-489
+2024-01-08 17:27:15,175 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:7450
+2024-01-08 17:27:15,175 - [33mPress CTRL+C to quit[0m
+2024-01-08 17:27:15,178 -  * Restarting with stat
+2024-01-08 17:27:15,415 -  * Debugger is active!
+2024-01-08 17:27:15,418 -  * Debugger PIN: 102-700-489
+2024-01-08 17:27:28,226 - 127.0.0.1 - - [08/Jan/2024 17:27:28] "GET /relatorio HTTP/1.1" 200 -
+2024-01-08 17:27:28,268 - 127.0.0.1 - - [08/Jan/2024 17:27:28] "GET /static/js/report_js_logic.js HTTP/1.1" 200 -
+2024-01-08 17:27:28,273 - 127.0.0.1 - - [08/Jan/2024 17:27:28] "GET /static/css/report.css HTTP/1.1" 200 -
+2024-01-08 17:27:35,237 - 127.0.0.1 - - [08/Jan/2024 17:27:35] "GET /similares/000141 HTTP/1.1" 200 -
+2024-01-08 17:27:42,676 - 127.0.0.1 - - [08/Jan/2024 17:27:42] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2024-01-08 17:28:39,971 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:7450
+2024-01-08 17:28:39,971 - [33mPress CTRL+C to quit[0m
+2024-01-08 17:28:39,974 -  * Restarting with stat
+2024-01-08 17:28:40,200 -  * Debugger is active!
+2024-01-08 17:28:40,203 -  * Debugger PIN: 102-700-489
+2024-01-08 17:28:45,894 - 127.0.0.1 - - [08/Jan/2024 17:28:45] "GET /relatorio HTTP/1.1" 200 -
+2024-01-08 17:28:45,941 - 127.0.0.1 - - [08/Jan/2024 17:28:45] "GET /static/js/report_js_logic.js HTTP/1.1" 200 -
+2024-01-08 17:28:45,947 - 127.0.0.1 - - [08/Jan/2024 17:28:45] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2024-01-08 17:28:48,815 - 127.0.0.1 - - [08/Jan/2024 17:28:48] "GET /similares/000141 HTTP/1.1" 200 -
+2024-01-08 17:28:55,169 - 127.0.0.1 - - [08/Jan/2024 17:28:55] "GET /similares/002433 HTTP/1.1" 200 -
+2024-01-08 17:29:19,498 -  * Detected change in 'C:\\Users\\Administrador.WIN-DEF9I0RFKKU\\ti_construfacil\\abc test\\curva_abc\\app.py', reloading
+2024-01-08 17:29:19,529 -  * Restarting with stat
+2024-01-08 17:29:19,753 -  * Debugger is active!
+2024-01-08 17:29:19,756 -  * Debugger PIN: 102-700-489
+2024-01-08 17:29:22,413 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:7450
+2024-01-08 17:29:22,413 - [33mPress CTRL+C to quit[0m
+2024-01-08 17:29:22,415 -  * Restarting with stat
+2024-01-08 17:29:22,644 -  * Debugger is active!
+2024-01-08 17:29:22,646 -  * Debugger PIN: 102-700-489
+2024-01-08 17:29:27,373 - 127.0.0.1 - - [08/Jan/2024 17:29:27] "GET /relatorio HTTP/1.1" 200 -
+2024-01-08 17:29:27,415 - 127.0.0.1 - - [08/Jan/2024 17:29:27] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2024-01-08 17:29:27,418 - 127.0.0.1 - - [08/Jan/2024 17:29:27] "[36mGET /static/js/report_js_logic.js HTTP/1.1[0m" 304 -
+2024-01-08 17:29:30,302 - 127.0.0.1 - - [08/Jan/2024 17:29:30] "GET /similares/005868 HTTP/1.1" 200 -
+2024-01-08 17:30:05,662 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:7450
+2024-01-08 17:30:05,662 - [33mPress CTRL+C to quit[0m
+2024-01-08 17:30:05,665 -  * Restarting with stat
+2024-01-08 17:30:05,936 -  * Debugger is active!
+2024-01-08 17:30:05,939 -  * Debugger PIN: 102-700-489
+2024-01-08 17:30:12,169 - 127.0.0.1 - - [08/Jan/2024 17:30:12] "GET /relatorio HTTP/1.1" 200 -
+2024-01-08 17:30:12,206 - 127.0.0.1 - - [08/Jan/2024 17:30:12] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2024-01-08 17:30:12,217 - 127.0.0.1 - - [08/Jan/2024 17:30:12] "GET /static/js/report_js_logic.js HTTP/1.1" 200 -
+2024-01-08 17:30:15,040 - 127.0.0.1 - - [08/Jan/2024 17:30:15] "GET /similares/002433 HTTP/1.1" 200 -
+2024-01-08 17:30:52,831 - 127.0.0.1 - - [08/Jan/2024 17:30:52] "GET /similares/002433 HTTP/1.1" 200 -
+2024-01-08 17:32:09,553 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:7450
+2024-01-08 17:32:09,553 - [33mPress CTRL+C to quit[0m
+2024-01-08 17:32:09,555 -  * Restarting with stat
+2024-01-08 17:32:09,975 -  * Debugger is active!
+2024-01-08 17:32:09,978 -  * Debugger PIN: 102-700-489
+2024-01-08 17:32:16,437 - 127.0.0.1 - - [08/Jan/2024 17:32:16] "GET /relatorio HTTP/1.1" 200 -
+2024-01-08 17:32:16,481 - 127.0.0.1 - - [08/Jan/2024 17:32:16] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2024-01-08 17:32:16,484 - 127.0.0.1 - - [08/Jan/2024 17:32:16] "GET /static/js/report_js_logic.js HTTP/1.1" 200 -
+2024-01-08 17:32:19,425 - 127.0.0.1 - - [08/Jan/2024 17:32:19] "GET /similares/002433 HTTP/1.1" 200 -
+2024-01-08 17:33:40,825 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:7450
+2024-01-08 17:33:40,825 - [33mPress CTRL+C to quit[0m
+2024-01-08 17:33:40,828 -  * Restarting with stat
+2024-01-08 17:33:41,061 -  * Debugger is active!
+2024-01-08 17:33:41,063 -  * Debugger PIN: 102-700-489
+2024-01-08 17:33:49,276 - 127.0.0.1 - - [08/Jan/2024 17:33:49] "GET /relatorio HTTP/1.1" 200 -
+2024-01-08 17:33:49,325 - 127.0.0.1 - - [08/Jan/2024 17:33:49] "GET /static/js/report_js_logic.js HTTP/1.1" 200 -
+2024-01-08 17:33:49,326 - 127.0.0.1 - - [08/Jan/2024 17:33:49] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2024-01-08 17:33:52,368 - 127.0.0.1 - - [08/Jan/2024 17:33:52] "GET /similares/005868 HTTP/1.1" 200 -
+2024-01-08 17:35:39,673 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:7450
+2024-01-08 17:35:39,674 - [33mPress CTRL+C to quit[0m
+2024-01-08 17:35:39,676 -  * Restarting with stat
+2024-01-08 17:35:39,918 -  * Debugger is active!
+2024-01-08 17:35:39,921 -  * Debugger PIN: 102-700-489
+2024-01-08 17:35:48,784 - 127.0.0.1 - - [08/Jan/2024 17:35:48] "GET /relatorio HTTP/1.1" 200 -
+2024-01-08 17:35:48,829 - 127.0.0.1 - - [08/Jan/2024 17:35:48] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2024-01-08 17:35:48,829 - 127.0.0.1 - - [08/Jan/2024 17:35:48] "[36mGET /static/js/report_js_logic.js HTTP/1.1[0m" 304 -
+2024-01-08 17:35:52,396 - 127.0.0.1 - - [08/Jan/2024 17:35:52] "GET /similares/001038 HTTP/1.1" 200 -
+2024-01-08 17:36:06,461 - 127.0.0.1 - - [08/Jan/2024 17:36:06] "[35m[1mGET /similares/Descrição%20Detalhada HTTP/1.1[0m" 500 -
+2024-01-08 17:39:39,296 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:7450
+2024-01-08 17:39:39,296 - [33mPress CTRL+C to quit[0m
+2024-01-08 17:39:39,299 -  * Restarting with stat
+2024-01-08 17:39:39,626 -  * Debugger is active!
+2024-01-08 17:39:39,629 -  * Debugger PIN: 102-700-489
+2024-01-08 17:39:46,151 - 127.0.0.1 - - [08/Jan/2024 17:39:46] "GET /relatorio HTTP/1.1" 200 -
+2024-01-08 17:39:46,194 - 127.0.0.1 - - [08/Jan/2024 17:39:46] "[36mGET /static/js/report_js_logic.js HTTP/1.1[0m" 304 -
+2024-01-08 17:39:46,195 - 127.0.0.1 - - [08/Jan/2024 17:39:46] "GET /static/css/report.css HTTP/1.1" 200 -
+2024-01-08 17:39:48,852 - 127.0.0.1 - - [08/Jan/2024 17:39:48] "GET /similares/000141 HTTP/1.1" 200 -
+2024-01-08 17:42:58,276 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:7450
+2024-01-08 17:42:58,276 - [33mPress CTRL+C to quit[0m
+2024-01-08 17:42:58,278 -  * Restarting with stat
+2024-01-08 17:42:58,630 -  * Debugger is active!
+2024-01-08 17:42:58,633 -  * Debugger PIN: 102-700-489
+2024-01-08 17:43:07,431 - 127.0.0.1 - - [08/Jan/2024 17:43:07] "GET /relatorio HTTP/1.1" 200 -
+2024-01-08 17:43:07,474 - 127.0.0.1 - - [08/Jan/2024 17:43:07] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2024-01-08 17:43:07,474 - 127.0.0.1 - - [08/Jan/2024 17:43:07] "GET /static/js/report_js_logic.js HTTP/1.1" 200 -
+2024-01-08 17:43:12,957 - 127.0.0.1 - - [08/Jan/2024 17:43:12] "GET /similares/013288 HTTP/1.1" 200 -
+2024-01-08 17:43:34,332 - 127.0.0.1 - - [08/Jan/2024 17:43:34] "GET /similares/013288 HTTP/1.1" 200 -
+2024-01-08 17:46:45,008 -  * Detected change in 'C:\\Users\\Administrador.WIN-DEF9I0RFKKU\\ti_construfacil\\abc test\\curva_abc\\Configuration\\DbConection\\queries.py', reloading
+2024-01-08 17:46:45,037 -  * Restarting with stat
+2024-01-08 17:46:45,264 -  * Debugger is active!
+2024-01-08 17:46:45,266 -  * Debugger PIN: 102-700-489
+2024-01-08 17:46:51,364 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:7450
+2024-01-08 17:46:51,364 - [33mPress CTRL+C to quit[0m
+2024-01-08 17:46:51,366 -  * Restarting with stat
+2024-01-08 17:46:51,728 -  * Debugger is active!
+2024-01-08 17:46:51,731 -  * Debugger PIN: 102-700-489
+2024-01-08 17:46:56,488 - 127.0.0.1 - - [08/Jan/2024 17:46:56] "GET /relatorio HTTP/1.1" 200 -
+2024-01-08 17:46:56,531 - 127.0.0.1 - - [08/Jan/2024 17:46:56] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2024-01-08 17:46:56,531 - 127.0.0.1 - - [08/Jan/2024 17:46:56] "[36mGET /static/js/report_js_logic.js HTTP/1.1[0m" 304 -
+2024-01-08 17:46:58,976 - 127.0.0.1 - - [08/Jan/2024 17:46:58] "GET /similares/002416 HTTP/1.1" 200 -
+2024-01-08 17:47:07,248 - 127.0.0.1 - - [08/Jan/2024 17:47:07] "GET /similares/013288 HTTP/1.1" 200 -
+2024-01-08 17:47:18,598 - 127.0.0.1 - - [08/Jan/2024 17:47:18] "GET /similares/012757 HTTP/1.1" 200 -
+2024-01-08 17:48:00,303 - 127.0.0.1 - - [08/Jan/2024 17:48:00] "GET /similares/007259 HTTP/1.1" 200 -
+2024-01-08 17:48:22,454 - 127.0.0.1 - - [08/Jan/2024 17:48:22] "GET /similares/013288 HTTP/1.1" 200 -
+2024-01-08 17:55:03,844 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:7450
+2024-01-08 17:55:03,844 - [33mPress CTRL+C to quit[0m
+2024-01-08 17:55:03,847 -  * Restarting with stat
+2024-01-08 17:55:04,183 -  * Debugger is active!
+2024-01-08 17:55:04,186 -  * Debugger PIN: 102-700-489
+2024-01-08 17:55:12,232 - 127.0.0.1 - - [08/Jan/2024 17:55:12] "GET /relatorio HTTP/1.1" 200 -
+2024-01-08 17:55:12,276 - 127.0.0.1 - - [08/Jan/2024 17:55:12] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2024-01-08 17:55:12,277 - 127.0.0.1 - - [08/Jan/2024 17:55:12] "GET /static/js/report_js_logic.js HTTP/1.1" 200 -
+2024-01-08 17:55:14,823 - 127.0.0.1 - - [08/Jan/2024 17:55:14] "GET /similares/005868 HTTP/1.1" 200 -
+2024-01-08 17:55:26,163 - 127.0.0.1 - - [08/Jan/2024 17:55:26] "GET /similares/002416 HTTP/1.1" 200 -
+2024-01-08 17:55:30,522 - 127.0.0.1 - - [08/Jan/2024 17:55:30] "GET /similares/002416 HTTP/1.1" 200 -
+2024-01-08 18:01:39,066 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:7450
+2024-01-08 18:01:39,066 - [33mPress CTRL+C to quit[0m
+2024-01-08 18:01:39,069 -  * Restarting with stat
+2024-01-08 18:01:39,295 -  * Debugger is active!
+2024-01-08 18:01:39,298 -  * Debugger PIN: 102-700-489
+2024-01-08 18:01:46,198 - 127.0.0.1 - - [08/Jan/2024 18:01:46] "GET /relatorio HTTP/1.1" 200 -
+2024-01-08 18:01:46,241 - 127.0.0.1 - - [08/Jan/2024 18:01:46] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2024-01-08 18:01:46,243 - 127.0.0.1 - - [08/Jan/2024 18:01:46] "GET /static/js/report_js_logic.js HTTP/1.1" 200 -
+2024-01-08 18:01:47,993 - 127.0.0.1 - - [08/Jan/2024 18:01:47] "GET /similares/013288 HTTP/1.1" 200 -
+2024-01-08 18:01:52,554 - 127.0.0.1 - - [08/Jan/2024 18:01:52] "GET /similares/013288 HTTP/1.1" 200 -
+2024-01-08 18:01:55,815 - 127.0.0.1 - - [08/Jan/2024 18:01:55] "GET /similares/002519 HTTP/1.1" 200 -
+2024-01-08 18:02:00,400 - 127.0.0.1 - - [08/Jan/2024 18:02:00] "GET /similares/002416 HTTP/1.1" 200 -
+2024-01-08 18:05:28,336 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:7450
+2024-01-08 18:05:28,337 - [33mPress CTRL+C to quit[0m
+2024-01-08 18:05:28,339 -  * Restarting with stat
+2024-01-08 18:05:28,570 -  * Debugger is active!
+2024-01-08 18:05:28,573 -  * Debugger PIN: 102-700-489
+2024-01-08 18:05:39,847 - 127.0.0.1 - - [08/Jan/2024 18:05:39] "GET /relatorio HTTP/1.1" 200 -
+2024-01-08 18:05:39,891 - 127.0.0.1 - - [08/Jan/2024 18:05:39] "GET /static/js/report_js_logic.js HTTP/1.1" 200 -
+2024-01-08 18:05:39,892 - 127.0.0.1 - - [08/Jan/2024 18:05:39] "GET /static/css/report.css HTTP/1.1" 200 -
+2024-01-08 18:05:42,284 - 127.0.0.1 - - [08/Jan/2024 18:05:42] "GET /similares/002416 HTTP/1.1" 200 -
+2024-01-08 18:05:51,853 - 127.0.0.1 - - [08/Jan/2024 18:05:51] "GET /similares/006260 HTTP/1.1" 200 -
+2024-01-08 18:11:06,755 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:7450
+2024-01-08 18:11:06,755 - [33mPress CTRL+C to quit[0m
+2024-01-08 18:11:06,757 -  * Restarting with stat
+2024-01-08 18:11:06,990 -  * Debugger is active!
+2024-01-08 18:11:06,993 -  * Debugger PIN: 102-700-489
+2024-01-08 18:11:12,030 - 127.0.0.1 - - [08/Jan/2024 18:11:12] "GET /relatorio HTTP/1.1" 200 -
+2024-01-08 18:11:12,074 - 127.0.0.1 - - [08/Jan/2024 18:11:12] "GET /static/css/report.css HTTP/1.1" 200 -
+2024-01-08 18:11:12,075 - 127.0.0.1 - - [08/Jan/2024 18:11:12] "GET /static/js/report_js_logic.js HTTP/1.1" 200 -
+2024-01-08 18:11:15,696 - 127.0.0.1 - - [08/Jan/2024 18:11:15] "GET /similares/002416 HTTP/1.1" 200 -
+2024-01-08 18:11:20,884 - 127.0.0.1 - - [08/Jan/2024 18:11:20] "GET /similares/002416 HTTP/1.1" 200 -
+2024-01-08 18:11:24,425 - 127.0.0.1 - - [08/Jan/2024 18:11:24] "GET /similares/002416 HTTP/1.1" 200 -
+2024-01-08 18:11:27,207 - 127.0.0.1 - - [08/Jan/2024 18:11:27] "GET /similares/002416 HTTP/1.1" 200 -
+2024-01-08 18:11:32,288 - 127.0.0.1 - - [08/Jan/2024 18:11:32] "GET /similares/002416 HTTP/1.1" 200 -
+2024-01-08 18:11:34,846 - 127.0.0.1 - - [08/Jan/2024 18:11:34] "GET /similares/005868 HTTP/1.1" 200 -
+2024-01-08 18:11:37,389 - 127.0.0.1 - - [08/Jan/2024 18:11:37] "GET /similares/002434 HTTP/1.1" 200 -
+2024-01-08 18:11:39,207 - 127.0.0.1 - - [08/Jan/2024 18:11:39] "GET /similares/001012 HTTP/1.1" 200 -
+2024-01-08 18:13:40,517 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:7450
+2024-01-08 18:13:40,517 - [33mPress CTRL+C to quit[0m
+2024-01-08 18:13:40,520 -  * Restarting with stat
+2024-01-08 18:13:40,785 -  * Debugger is active!
+2024-01-08 18:13:40,787 -  * Debugger PIN: 102-700-489
+2024-01-08 18:13:46,201 - 127.0.0.1 - - [08/Jan/2024 18:13:46] "GET /relatorio HTTP/1.1" 200 -
+2024-01-08 18:13:46,244 - 127.0.0.1 - - [08/Jan/2024 18:13:46] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2024-01-08 18:13:46,246 - 127.0.0.1 - - [08/Jan/2024 18:13:46] "GET /static/js/report_js_logic.js HTTP/1.1" 200 -
+2024-01-08 18:13:48,555 - 127.0.0.1 - - [08/Jan/2024 18:13:48] "GET /similares/002585 HTTP/1.1" 200 -
+2024-01-08 18:13:52,528 - 127.0.0.1 - - [08/Jan/2024 18:13:52] "GET /similares/006778 HTTP/1.1" 200 -
+2024-01-08 18:15:03,044 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:7450
+2024-01-08 18:15:03,044 - [33mPress CTRL+C to quit[0m
+2024-01-08 18:15:03,046 -  * Restarting with stat
+2024-01-08 18:15:03,282 -  * Debugger is active!
+2024-01-08 18:15:03,285 -  * Debugger PIN: 102-700-489
+2024-01-08 18:15:09,236 - 127.0.0.1 - - [08/Jan/2024 18:15:09] "GET /relatorio HTTP/1.1" 200 -
+2024-01-08 18:15:09,283 - 127.0.0.1 - - [08/Jan/2024 18:15:09] "GET /static/js/report_js_logic.js HTTP/1.1" 200 -
+2024-01-08 18:15:09,283 - 127.0.0.1 - - [08/Jan/2024 18:15:09] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2024-01-08 18:15:11,799 - 127.0.0.1 - - [08/Jan/2024 18:15:11] "GET /similares/008994 HTTP/1.1" 200 -
+2024-01-08 18:15:15,497 - 127.0.0.1 - - [08/Jan/2024 18:15:15] "GET /similares/000066 HTTP/1.1" 200 -
+2024-01-08 18:15:17,804 - 127.0.0.1 - - [08/Jan/2024 18:15:17] "GET /similares/000008 HTTP/1.1" 200 -
+2024-01-08 18:20:46,928 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:7450
+2024-01-08 18:20:46,928 - [33mPress CTRL+C to quit[0m
+2024-01-08 18:20:46,931 -  * Restarting with stat
+2024-01-08 18:20:47,173 -  * Debugger is active!
+2024-01-08 18:20:47,176 -  * Debugger PIN: 102-700-489
+2024-01-08 18:20:57,512 - 127.0.0.1 - - [08/Jan/2024 18:20:57] "GET /relatorio HTTP/1.1" 200 -
+2024-01-08 18:20:57,524 - 127.0.0.1 - - [08/Jan/2024 18:20:57] "[33mGET /static/js/report_js_logic.js HTTP/1.1[0m" 404 -
+2024-01-08 18:20:57,542 - 127.0.0.1 - - [08/Jan/2024 18:20:57] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2024-01-08 18:22:17,908 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:7450
+2024-01-08 18:22:17,908 - [33mPress CTRL+C to quit[0m
+2024-01-08 18:22:17,911 -  * Restarting with stat
+2024-01-08 18:22:18,153 -  * Debugger is active!
+2024-01-08 18:22:18,156 -  * Debugger PIN: 102-700-489
+2024-01-08 18:22:28,031 - 127.0.0.1 - - [08/Jan/2024 18:22:28] "GET /relatorio HTTP/1.1" 200 -
+2024-01-08 18:22:28,043 - 127.0.0.1 - - [08/Jan/2024 18:22:28] "[33mGET /static/js/report_js_logic.js HTTP/1.1[0m" 404 -
+2024-01-08 18:22:28,059 - 127.0.0.1 - - [08/Jan/2024 18:22:28] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2024-01-08 18:24:55,361 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:7450
+2024-01-08 18:24:55,361 - [33mPress CTRL+C to quit[0m
+2024-01-08 18:24:55,364 -  * Restarting with stat
+2024-01-08 18:24:55,614 -  * Debugger is active!
+2024-01-08 18:24:55,617 -  * Debugger PIN: 102-700-489
+2024-01-08 18:25:01,478 - 127.0.0.1 - - [08/Jan/2024 18:25:01] "GET /relatorio HTTP/1.1" 200 -
+2024-01-08 18:25:01,490 - 127.0.0.1 - - [08/Jan/2024 18:25:01] "[33mGET /static/js/report_js_logic.js HTTP/1.1[0m" 404 -
+2024-01-08 18:25:01,512 - 127.0.0.1 - - [08/Jan/2024 18:25:01] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2024-01-08 18:26:20,861 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:7450
+2024-01-08 18:26:20,861 - [33mPress CTRL+C to quit[0m
+2024-01-08 18:26:20,864 -  * Restarting with stat
+2024-01-08 18:26:21,091 -  * Debugger is active!
+2024-01-08 18:26:21,094 -  * Debugger PIN: 102-700-489
+2024-01-08 18:26:28,477 - 127.0.0.1 - - [08/Jan/2024 18:26:28] "GET /relatorio HTTP/1.1" 200 -
+2024-01-08 18:26:28,490 - 127.0.0.1 - - [08/Jan/2024 18:26:28] "[33mGET /static/js/report_js_logic.js HTTP/1.1[0m" 404 -
+2024-01-08 18:26:28,506 - 127.0.0.1 - - [08/Jan/2024 18:26:28] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2024-01-08 18:27:10,581 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:7450
+2024-01-08 18:27:10,581 - [33mPress CTRL+C to quit[0m
+2024-01-08 18:27:10,583 -  * Restarting with stat
+2024-01-08 18:27:10,813 -  * Debugger is active!
+2024-01-08 18:27:10,816 -  * Debugger PIN: 102-700-489
+2024-01-08 18:27:37,321 - 127.0.0.1 - - [08/Jan/2024 18:27:37] "GET /relatorio HTTP/1.1" 200 -
+2024-01-08 18:27:37,364 - 127.0.0.1 - - [08/Jan/2024 18:27:37] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-01-08 18:27:37,365 - 127.0.0.1 - - [08/Jan/2024 18:27:37] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2024-01-08 18:28:46,010 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:7450
+2024-01-08 18:28:46,010 - [33mPress CTRL+C to quit[0m
+2024-01-08 18:28:46,012 -  * Restarting with stat
+2024-01-08 18:28:46,248 -  * Debugger is active!
+2024-01-08 18:28:46,251 -  * Debugger PIN: 102-700-489
+2024-01-08 18:28:51,432 - 127.0.0.1 - - [08/Jan/2024 18:28:51] "GET /relatorio HTTP/1.1" 200 -
+2024-01-08 18:28:51,475 - 127.0.0.1 - - [08/Jan/2024 18:28:51] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-01-08 18:28:51,476 - 127.0.0.1 - - [08/Jan/2024 18:28:51] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2024-01-08 18:28:52,571 - 127.0.0.1 - - [08/Jan/2024 18:28:52] "GET /similares/013691 HTTP/1.1" 200 -
+2024-01-08 18:28:58,238 - 127.0.0.1 - - [08/Jan/2024 18:28:58] "GET /similares/013691 HTTP/1.1" 200 -
+2024-01-08 18:29:02,652 - 127.0.0.1 - - [08/Jan/2024 18:29:02] "GET /similares/010503 HTTP/1.1" 200 -
+2024-01-08 18:31:23,898 - 127.0.0.1 - - [08/Jan/2024 18:31:23] "[35m[1mGET /similares/${} HTTP/1.1[0m" 500 -
+2024-01-08 18:31:23,918 - 127.0.0.1 - - [08/Jan/2024 18:31:23] "GET /similares/${}?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-01-08 18:31:24,128 - 127.0.0.1 - - [08/Jan/2024 18:31:24] "GET /similares/${}?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-01-08 18:31:24,436 - 127.0.0.1 - - [08/Jan/2024 18:31:24] "GET /similares/${}?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-01-08 18:31:24,686 - 127.0.0.1 - - [08/Jan/2024 18:31:24] "[36mGET /similares/${}?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-01-08 18:36:51,727 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:7450
+2024-01-08 18:36:51,727 - [33mPress CTRL+C to quit[0m
+2024-01-08 18:36:51,730 -  * Restarting with stat
+2024-01-08 18:36:52,077 -  * Debugger is active!
+2024-01-08 18:36:52,080 -  * Debugger PIN: 102-700-489
+2024-01-08 18:36:58,667 - 127.0.0.1 - - [08/Jan/2024 18:36:58] "GET /relatorio HTTP/1.1" 200 -
+2024-01-08 18:36:58,712 - 127.0.0.1 - - [08/Jan/2024 18:36:58] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2024-01-08 18:36:58,712 - 127.0.0.1 - - [08/Jan/2024 18:36:58] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-01-08 18:37:03,991 - 127.0.0.1 - - [08/Jan/2024 18:37:03] "GET /similares/000008 HTTP/1.1" 200 -
+2024-01-08 18:38:23,120 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:7450
+2024-01-08 18:38:23,120 - [33mPress CTRL+C to quit[0m
+2024-01-08 18:38:23,123 -  * Restarting with stat
+2024-01-08 18:38:23,350 -  * Debugger is active!
+2024-01-08 18:38:23,353 -  * Debugger PIN: 102-700-489
+2024-01-08 18:38:36,508 - 127.0.0.1 - - [08/Jan/2024 18:38:36] "GET /relatorio HTTP/1.1" 200 -
+2024-01-08 18:38:36,553 - 127.0.0.1 - - [08/Jan/2024 18:38:36] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2024-01-08 18:38:36,553 - 127.0.0.1 - - [08/Jan/2024 18:38:36] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-01-08 18:38:39,790 - 127.0.0.1 - - [08/Jan/2024 18:38:39] "GET /similares/000066 HTTP/1.1" 200 -
+2024-01-08 18:39:26,233 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:7450
+2024-01-08 18:39:26,233 - [33mPress CTRL+C to quit[0m
+2024-01-08 18:39:26,236 -  * Restarting with stat
+2024-01-08 18:39:26,472 -  * Debugger is active!
+2024-01-08 18:39:26,475 -  * Debugger PIN: 102-700-489
+2024-01-08 18:39:31,600 - 127.0.0.1 - - [08/Jan/2024 18:39:31] "GET /relatorio HTTP/1.1" 200 -
+2024-01-08 18:39:31,644 - 127.0.0.1 - - [08/Jan/2024 18:39:31] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-01-08 18:39:31,647 - 127.0.0.1 - - [08/Jan/2024 18:39:31] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2024-01-08 18:39:34,205 - 127.0.0.1 - - [08/Jan/2024 18:39:34] "GET /similares/000163 HTTP/1.1" 200 -
+2024-01-08 18:39:37,577 - 127.0.0.1 - - [08/Jan/2024 18:39:37] "GET /similares/002703 HTTP/1.1" 200 -
+2024-01-08 18:39:49,144 - 127.0.0.1 - - [08/Jan/2024 18:39:49] "GET /similares/000008 HTTP/1.1" 200 -
+2024-01-08 18:41:54,230 - 127.0.0.1 - - [08/Jan/2024 18:41:54] "GET /relatorio HTTP/1.1" 200 -
+2024-01-08 18:41:54,246 - 127.0.0.1 - - [08/Jan/2024 18:41:54] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-01-08 18:41:54,246 - 127.0.0.1 - - [08/Jan/2024 18:41:54] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2024-01-08 18:41:56,800 - 127.0.0.1 - - [08/Jan/2024 18:41:56] "GET /similares/009410 HTTP/1.1" 200 -
+2024-01-08 18:42:03,120 - 127.0.0.1 - - [08/Jan/2024 18:42:03] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2024-01-08 18:43:59,537 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:7450
+2024-01-08 18:43:59,537 - [33mPress CTRL+C to quit[0m
+2024-01-08 18:43:59,540 -  * Restarting with stat
+2024-01-08 18:43:59,783 -  * Debugger is active!
+2024-01-08 18:43:59,786 -  * Debugger PIN: 102-700-489
+2024-01-08 18:44:24,702 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:7450
+2024-01-08 18:44:24,702 - [33mPress CTRL+C to quit[0m
+2024-01-08 18:44:24,705 -  * Restarting with stat
+2024-01-08 18:44:24,942 -  * Debugger is active!
+2024-01-08 18:44:24,945 -  * Debugger PIN: 102-700-489
+2024-01-08 18:44:30,246 - 127.0.0.1 - - [08/Jan/2024 18:44:30] "GET /relatorio HTTP/1.1" 200 -
+2024-01-08 18:44:30,299 - 127.0.0.1 - - [08/Jan/2024 18:44:30] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-01-08 18:44:30,299 - 127.0.0.1 - - [08/Jan/2024 18:44:30] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2024-01-08 18:44:32,754 - 127.0.0.1 - - [08/Jan/2024 18:44:32] "GET /similares/008334 HTTP/1.1" 200 -
+2024-01-08 18:44:36,271 - 127.0.0.1 - - [08/Jan/2024 18:44:36] "GET /similares/000229 HTTP/1.1" 200 -
+2024-01-08 18:45:57,400 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:7450
+2024-01-08 18:45:57,400 - [33mPress CTRL+C to quit[0m
+2024-01-08 18:45:57,403 -  * Restarting with stat
+2024-01-08 18:45:57,642 -  * Debugger is active!
+2024-01-08 18:45:57,645 -  * Debugger PIN: 102-700-489
+2024-01-08 18:46:03,180 - 127.0.0.1 - - [08/Jan/2024 18:46:03] "GET /relatorio HTTP/1.1" 200 -
+2024-01-08 18:46:03,219 - 127.0.0.1 - - [08/Jan/2024 18:46:03] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2024-01-08 18:46:03,224 - 127.0.0.1 - - [08/Jan/2024 18:46:03] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-01-08 18:46:09,101 - 127.0.0.1 - - [08/Jan/2024 18:46:09] "GET /similares/001262 HTTP/1.1" 200 -
+2024-01-08 18:46:11,415 - 127.0.0.1 - - [08/Jan/2024 18:46:11] "GET /similares/000229 HTTP/1.1" 200 -
+2024-01-08 18:50:10,106 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:7450
+2024-01-08 18:50:10,106 - [33mPress CTRL+C to quit[0m
+2024-01-08 18:50:10,108 -  * Restarting with stat
+2024-01-08 18:50:10,340 -  * Debugger is active!
+2024-01-08 18:50:10,343 -  * Debugger PIN: 102-700-489
+2024-01-08 18:50:15,882 - 127.0.0.1 - - [08/Jan/2024 18:50:15] "GET /relatorio HTTP/1.1" 200 -
+2024-01-08 18:50:15,927 - 127.0.0.1 - - [08/Jan/2024 18:50:15] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-01-08 18:50:15,928 - 127.0.0.1 - - [08/Jan/2024 18:50:15] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2024-01-08 18:50:17,869 - 127.0.0.1 - - [08/Jan/2024 18:50:17] "GET /similares/009410 HTTP/1.1" 200 -
+2024-01-08 18:50:20,273 - 127.0.0.1 - - [08/Jan/2024 18:50:20] "GET /similares/000229 HTTP/1.1" 200 -
+2024-01-08 18:53:39,896 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:7450
+2024-01-08 18:53:39,896 - [33mPress CTRL+C to quit[0m
+2024-01-08 18:53:39,898 -  * Restarting with stat
+2024-01-08 18:53:40,130 -  * Debugger is active!
+2024-01-08 18:53:40,133 -  * Debugger PIN: 102-700-489
+2024-01-08 18:53:46,516 - 127.0.0.1 - - [08/Jan/2024 18:53:46] "GET /relatorio HTTP/1.1" 200 -
+2024-01-08 18:53:46,558 - 127.0.0.1 - - [08/Jan/2024 18:53:46] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2024-01-08 18:53:46,563 - 127.0.0.1 - - [08/Jan/2024 18:53:46] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-01-08 18:53:49,764 - 127.0.0.1 - - [08/Jan/2024 18:53:49] "GET /similares/000229 HTTP/1.1" 200 -
+2024-01-08 18:53:51,572 - 127.0.0.1 - - [08/Jan/2024 18:53:51] "[35m[1mGET /similares/SimNão HTTP/1.1[0m" 500 -
+2024-01-08 18:53:52,961 - 127.0.0.1 - - [08/Jan/2024 18:53:52] "GET /similares/000066 HTTP/1.1" 200 -
+2024-01-08 18:53:54,094 - 127.0.0.1 - - [08/Jan/2024 18:53:54] "[35m[1mGET /similares/SimNão HTTP/1.1[0m" 500 -
+2024-01-08 18:55:44,167 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:7450
+2024-01-08 18:55:44,167 - [33mPress CTRL+C to quit[0m
+2024-01-08 18:55:44,170 -  * Restarting with stat
+2024-01-08 18:55:44,518 -  * Debugger is active!
+2024-01-08 18:55:44,521 -  * Debugger PIN: 102-700-489
+2024-01-08 18:55:50,832 - 127.0.0.1 - - [08/Jan/2024 18:55:50] "GET /relatorio HTTP/1.1" 200 -
+2024-01-08 18:55:50,873 - 127.0.0.1 - - [08/Jan/2024 18:55:50] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2024-01-08 18:55:50,881 - 127.0.0.1 - - [08/Jan/2024 18:55:50] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-01-08 18:55:52,284 - 127.0.0.1 - - [08/Jan/2024 18:55:52] "GET /similares/000066 HTTP/1.1" 200 -
+2024-01-08 18:55:54,635 - 127.0.0.1 - - [08/Jan/2024 18:55:54] "[35m[1mGET /similares/SimNão HTTP/1.1[0m" 500 -
+2024-01-08 18:55:57,096 - 127.0.0.1 - - [08/Jan/2024 18:55:57] "GET /similares/000229 HTTP/1.1" 200 -
+2024-01-08 18:55:58,545 - 127.0.0.1 - - [08/Jan/2024 18:55:58] "[35m[1mGET /similares/SimNão HTTP/1.1[0m" 500 -
+2024-01-08 18:56:06,038 - 127.0.0.1 - - [08/Jan/2024 18:56:06] "GET /similares/008994 HTTP/1.1" 200 -
+2024-01-08 18:56:09,560 - 127.0.0.1 - - [08/Jan/2024 18:56:09] "[35m[1mGET /similares/SimNão HTTP/1.1[0m" 500 -
+2024-01-08 18:56:10,887 - 127.0.0.1 - - [08/Jan/2024 18:56:10] "GET /similares/002703 HTTP/1.1" 200 -
+2024-01-08 18:56:12,250 - 127.0.0.1 - - [08/Jan/2024 18:56:12] "[35m[1mGET /similares/SimNão HTTP/1.1[0m" 500 -
+2024-01-08 18:57:05,095 -  * Detected change in 'C:\\Users\\Administrador.WIN-DEF9I0RFKKU\\ti_construfacil\\abc test\\curva_abc\\app.py', reloading
+2024-01-08 18:57:05,124 -  * Restarting with stat
+2024-01-08 18:57:05,349 -  * Debugger is active!
+2024-01-08 18:57:05,352 -  * Debugger PIN: 102-700-489
+2024-01-08 18:59:17,218 -  * Detected change in 'C:\\Users\\Administrador.WIN-DEF9I0RFKKU\\ti_construfacil\\abc test\\curva_abc\\app.py', reloading
+2024-01-08 18:59:17,246 -  * Restarting with stat
+2024-01-08 18:59:17,468 -  * Debugger is active!
+2024-01-08 18:59:17,471 -  * Debugger PIN: 102-700-489
+2024-01-08 18:59:34,594 -  * Detected change in 'C:\\Users\\Administrador.WIN-DEF9I0RFKKU\\ti_construfacil\\abc test\\curva_abc\\app.py', reloading
+2024-01-08 18:59:34,621 -  * Restarting with stat
+2024-01-08 18:59:34,846 -  * Debugger is active!
+2024-01-08 18:59:34,849 -  * Debugger PIN: 102-700-489
+2024-01-08 19:00:08,109 -  * Detected change in 'C:\\Users\\Administrador.WIN-DEF9I0RFKKU\\ti_construfacil\\abc test\\curva_abc\\app.py', reloading
+2024-01-08 19:00:08,142 -  * Restarting with stat
+2024-01-08 19:00:08,375 -  * Debugger is active!
+2024-01-08 19:00:08,378 -  * Debugger PIN: 102-700-489
+2024-01-08 19:01:19,829 -  * Detected change in 'C:\\Users\\Administrador.WIN-DEF9I0RFKKU\\ti_construfacil\\abc test\\curva_abc\\app.py', reloading
+2024-01-08 19:01:19,865 -  * Restarting with stat
+2024-01-08 19:01:20,085 -  * Debugger is active!
+2024-01-08 19:01:20,088 -  * Debugger PIN: 102-700-489
+2024-01-08 19:12:15,042 -  * Detected change in 'C:\\Users\\Administrador.WIN-DEF9I0RFKKU\\ti_construfacil\\abc test\\curva_abc\\app.py', reloading
+2024-01-08 19:12:15,069 -  * Restarting with stat
+2024-01-08 19:12:15,288 -  * Debugger is active!
+2024-01-08 19:12:15,291 -  * Debugger PIN: 102-700-489
+2024-01-08 19:13:11,672 -  * Detected change in 'C:\\Users\\Administrador.WIN-DEF9I0RFKKU\\ti_construfacil\\abc test\\curva_abc\\app.py', reloading
+2024-01-08 19:13:11,702 -  * Restarting with stat
